@@ -1,2 +1,1 @@
 # Escuela
-Escuela
