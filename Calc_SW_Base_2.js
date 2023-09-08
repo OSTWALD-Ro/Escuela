@@ -8,6 +8,19 @@ var var_if_exists_html_1__Calc_SW_Base;
 
 // Funciones
 
+function OSTWALD_elements_html_2__Calc_SW_Base()
+{
+  // Si No es el Navegador OSTWALD, Crear Elementos para HTML 2
+  if (!if_browser_OSTWALD__index())
+  {
+    // Crear Elementos HTML: <body> 1
+
+    const p_2__Calc_SW_Base = document.createElement('p');  document.body.appendChild(p_2__Calc_SW_Base);  p_2__Calc_SW_Base.id = "p_2__Calc_SW_Base";  p_2__Calc_SW_Base.class = "p__Calc_SW_Base p_block_2__Calc_SW_Base p_2__Calc_SW_Base";  p_2__Calc_SW_Base.textContent = "";
+
+    const button_3__Calc_SW_Base = document.createElement('button');  document.body.appendChild(button_3__Calc_SW_Base);  button_3__Calc_SW_Base.id = "button_3__Calc_SW_Base";  button_3__Calc_SW_Base.class = "button__Calc_SW_Base button_3__Calc_SW_Base";  button_3__Calc_SW_Base.onclick = function() {location.reload(true);};  button_3__Calc_SW_Base.textContent = "Actualizar Página";
+  }
+}
+
 function if_exists_html_1__Calc_SW_Base()
 {
   // Comprobar si Existe HTML 1
@@ -53,4 +66,8 @@ function create_html_2__Calc_SW_Base()
   ////////////////////////////////
 
   if_exists_html_1__Calc_SW_Base();
+
+  ////////////////////////////////
+
+  OSTWALD_elements_html_2__Calc_SW_Base();
 }
