@@ -228,8 +228,6 @@ function init_1__Calc_SW_Base()
 function main_1__Calc_SW_Base() 
 {
   // Código Principal
-  create_html_1__Calc_SW_Base();
-  create_html_1_init__Calc_SW_Base();
 }
 
 init_1__Calc_SW_Base();
