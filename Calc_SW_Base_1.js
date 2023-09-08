@@ -93,6 +93,261 @@ function create_html_1__Calc_SW_Base()
 
   const title_1__Calc_SW_Base = document.createElement('title');  document.head.appendChild(title_1__Calc_SW_Base);  title_1__Calc_SW_Base.id = "title_1__Calc_SW_Base";  title_1__Calc_SW_Base.textContent = "Calculadora de Cambio de Base";
 
+  const style_1__Calc_SW_Base = document.createElement('style');  document.head.appendChild(style_1__Calc_SW_Base);  style_1__Calc_SW_Base.id = "style_1__Calc_SW_Base";
+  style_1__Calc_SW_Base.textContent = `
+    /* html */
+  
+    html {
+      background-color: rgb( 0, 0, 0);
+      border: ridge rgba(63, 63, 63, 0.5);
+      color: rgb(63, 63, 63);
+      box-shadow: 0 0 1.5vh rgb(63, 63, 63);
+      border-radius: 0px 0px 0px 0px;
+      margin: solid;
+      padding: solid;
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      align-self: center;
+      height: 99vh;
+      width: 100%;
+      font-family: Arial, sans-serif;
+    }
+    
+    html:hover {
+      border: double rgb(191, 191, 191);
+      color: rgb(191, 191, 191);
+      box-shadow: 0 0 1.5vh rgb(191, 191, 191);
+    }
+  
+    /* body */
+  
+    body {
+      background-color: rgba( 0, 0, 0, 0);
+      border: ridge rgba(63, 63, 63, 0.5);
+      color: rgb(63, 63, 63);
+      box-shadow: 0 0 1.5vh rgb(63, 63, 63);
+      border-radius: 20px 20px 20px 20px;
+      margin: solid;
+      padding: solid;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      align-self: center;
+      height: 99.25%;
+      width: 100%;
+    }
+    
+    body:hover {
+      border: double rgb(191, 191, 191);
+      color: rgb(191, 191, 191);
+      box-shadow: 0 0 1.5vh rgb(191, 191, 191);
+    }
+  
+    /* div_1__Calc_SW_Base */
+  
+    .div_1__Calc_SW_Base {
+      background-color: rgba( 0, 0, 0, 0);
+      border: ridge rgba(63, 63, 63, 0.5);
+      color: rgb(63, 63, 63);
+      box-shadow: 0 0 1.5vh rgb(63, 63, 63);
+      border-radius: 20px 20px 20px 20px;
+      margin: solid;
+      padding: solid;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      align-self: center;
+    }
+  
+    .div_1__Calc_SW_Base:hover {
+      border: double rgb(191, 191, 191);
+      color: rgb(191, 191, 191);
+      box-shadow: 0 0 1.5vh rgb(191, 191, 191);
+    }
+  
+    /* h1_1__Calc_SW_Base */
+  
+    .h1_1__Calc_SW_Base {
+      margin: 20px;
+      padding: solid;
+    }
+  
+    /* input__Calc_SW_Base */
+  
+    .input__Calc_SW_Base {
+      background-color: rgba( 0, 0, 0, 0);
+  
+      border: ridge rgba(63, 63, 63, 0.5);
+      color: rgb(63, 63, 63);
+      box-shadow: 0 0 1.5vh rgb(63, 63, 63);
+      border-radius: 20px 20px 20px 20px;
+  
+      margin: solid;
+      padding: solid;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      align-self: center;
+  
+      margin-bottom: 5px;
+    }
+  
+    .input__Calc_SW_Base:hover {
+      border: double rgb(191, 191, 191);
+      color: rgb(191, 191, 191);
+      box-shadow: 0 0 1.5vh rgb(191, 191, 191);
+    }
+  
+    /* input_1__Calc_SW_Base */
+  
+    .label_1__Calc_SW_Base {
+      color: rgb(191, 63, 191);
+    }
+  
+    .label_1__Calc_SW_Base:hover {
+      color: rgb(255, 0, 255);
+    }
+  
+    .input_1__Calc_SW_Base {
+      padding: 10px 20px;
+      border-radius: 20px 20px 0px 0px;
+  
+      border: ridge rgba(191, 63, 191, 0.5);
+      color: rgb(191, 63, 191);
+      box-shadow: 0 0 1.5vh rgb(191, 63, 191);
+    }
+  
+    .input_1__Calc_SW_Base:hover {
+      border: double rgb(255, 0, 255);
+      color: rgb(255, 0, 255);
+      box-shadow: 0 0 1.5vh rgb(255, 0, 255);
+    }
+  
+    /* input_2__Calc_SW_Base */
+  
+    .label_2__Calc_SW_Base {
+      color: rgb(191, 191, 63);
+    }
+  
+    .label_2__Calc_SW_Base:hover {
+      color: rgb(255, 255, 0);
+    }
+  
+    .input_2__Calc_SW_Base {
+      padding: 10px 20px;
+      border-radius: 0px 0px 20px 20px;
+  
+      border: ridge rgba(191, 191, 63, 0.5);
+      color: rgb(191, 191, 63);
+      box-shadow: 0 0 1.5vh rgb(191, 191, 63);
+    }
+  
+    .input_2__Calc_SW_Base:hover {
+      border: double rgb(255, 255, 0);
+      color: rgb(255, 255, 0);
+      box-shadow: 0 0 1.5vh rgb(255, 255, 0);
+    }
+  
+    /* select_1__Calc_SW_Base */
+  
+    .label_3__Calc_SW_Base {
+      color: rgb(191, 63, 63);
+    }
+  
+    .label_3__Calc_SW_Base:hover {
+      color: rgb(255, 0, 0);
+    }
+  
+    .select_1__Calc_SW_Base {
+      padding: 10px 20px;
+      border-radius: 20px 20px 0px 0px;
+  
+      border: ridge rgba(191, 63, 63, 0.5);
+      color: rgb(191, 63, 63);
+      box-shadow: 0 0 1.5vh rgb(191, 63, 63);
+    }
+  
+    .select_1__Calc_SW_Base:hover {
+      border: double rgb(255, 0, 0);
+      color: rgb(255, 0, 0);
+      box-shadow: 0 0 1.5vh rgb(255, 0, 0);
+    }
+  
+    /* select_2__Calc_SW_Base */
+  
+    .label_4__Calc_SW_Base {
+      color: rgb(63, 191, 191);
+    }
+  
+    .label_4__Calc_SW_Base:hover {
+      color: rgb(0, 255, 255);
+    }
+  
+    .select_2__Calc_SW_Base {
+      padding: 10px 20px;
+      border-radius: 0px 0px 0px 0px;
+  
+      border: ridge rgba(63, 191, 191, 0.5);
+      color: rgb(63, 191, 191);
+      box-shadow: 0 0 1.5vh rgb(63, 191, 191);
+    }
+  
+    .select_2__Calc_SW_Base:hover {
+      border: double rgb(0, 255, 255);
+      color: rgb(0, 255, 255);
+      box-shadow: 0 0 1.5vh rgb(0, 255, 255);
+    }
+  
+    /* select_3__Calc_SW_Base */
+  
+    .label_5__Calc_SW_Base {
+      color: rgb(63, 63, 191);
+    }
+  
+    .label_5__Calc_SW_Base:hover {
+      color: rgb(0, 63, 255);
+    }
+  
+    .select_3__Calc_SW_Base {
+      padding: 10px 20px;
+      border-radius: 0px 0px 20px 20px;
+  
+      border: ridge rgba(63, 63, 191, 0.5);
+      color: rgb(63, 63, 191);
+      box-shadow: 0 0 1.5vh rgb(63, 63, 191);
+    }
+  
+    .select_3__Calc_SW_Base:hover {
+      border: double rgb(0, 0, 255);
+      color: rgb(0, 0, 255);
+      box-shadow: 0 0 1.5vh rgb(0, 0, 255);
+    }
+  
+    /* button__Calc_SW_Base */
+  
+    .button__Calc_SW_Base {
+      padding: 10px 20px;
+      border-radius: 20px 20px 20px 20px;
+  
+      border: ridge rgba(63, 191, 63, 0.5);
+      color: rgb(63, 191, 63);
+      box-shadow: 0 0 1.5vh rgb(63, 191, 63);
+    }
+  
+    .button__Calc_SW_Base:hover {
+      border: double rgb(0, 255, 0);
+      color: rgb(0, 255, 0);
+      box-shadow: 0 0 1.5vh rgb(0, 255, 0);
+    }
+  `;
+
   // Crear Elementos HTML: <body> 1
 
   const button_1__Calc_SW_Base = document.createElement('button');  document.body.appendChild(button_1__Calc_SW_Base);  button_1__Calc_SW_Base.id = "button_1__Calc_SW_Base";  button_1__Calc_SW_Base.class = "button__Calc_SW_Base button_1__Calc_SW_Base";  button_1__Calc_SW_Base.onclick = function() {redirigir__index('OSTWALD', 'Escuela', 0)};  button_1__Calc_SW_Base.textContent = "Página Anterior";  
