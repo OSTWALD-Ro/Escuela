@@ -19,6 +19,8 @@ function if_exists_html_1__Calc_SW_Base()
   {
     // Crear Elementos HTML: <body> 2
 
+    const p_1__Calc_SW_Base = document.createElement('p');  document.body.appendChild(p_1__Calc_SW_Base);  p_1__Calc_SW_Base.id = "p_1__Calc_SW_Base";  p_1__Calc_SW_Base.class = "p__Calc_SW_Base p_block_2__Calc_SW_Base p_1__Calc_SW_Base";  p_1__Calc_SW_Base.textContent = "";  
+  
     const button_2__Calc_SW_Base = document.createElement('button');  document.body.appendChild(button_2__Calc_SW_Base);  button_2__Calc_SW_Base.id = "button_2__Calc_SW_Base";  button_2__Calc_SW_Base.class = "button__Calc_SW_Base button_2__Calc_SW_Base";  button_2__Calc_SW_Base.onclick = function() {save_html_2__Calc_SW_Base(); delete_html__index();  create_html_1__Calc_SW_Base();  load_html_1__Calc_SW_Base();};  button_2__Calc_SW_Base.textContent = "Ver Calculadora";
   }
 }
@@ -45,6 +47,8 @@ function create_html_2__Calc_SW_Base()
   const title_1__Calc_SW_Base = document.createElement('title');  document.head.appendChild(title_1__Calc_SW_Base);  title_1__Calc_SW_Base.id = "title_1__Calc_SW_Base";  title_1__Calc_SW_Base.textContent = "Calculadora de Cambio de Base";
 
   // Crear Elementos HTML: <body> 2
+
+  const button_1__Calc_SW_Base = document.createElement('button');  document.body.appendChild(button_1__Calc_SW_Base);  button_1__Calc_SW_Base.id = "button_1__Calc_SW_Base";  button_1__Calc_SW_Base.class = "button__Calc_SW_Base button_1__Calc_SW_Base";  button_1__Calc_SW_Base.onclick = function() {redirigir__index('OSTWALD', 'Escuela', 0)};  button_1__Calc_SW_Base.textContent = "Página Anterior";  
 
   ////////////////////////////////
 
