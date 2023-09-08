@@ -9,9 +9,9 @@ var var_if_exists_html_1__Calc_SW_Base;
 // Funciones
 
 function OSTWALD_elements_html_2__Calc_SW_Base()
-{
+{    
   // Si No es el Navegador OSTWALD, Crear Elementos para HTML 2
-  if (if_browser_OSTWALD__index() === false)
+  if (!if_browser_OSTWALD__index())
   {
     // Crear Elementos HTML: <body> 1
 
