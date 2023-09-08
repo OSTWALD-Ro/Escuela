@@ -20,7 +20,7 @@ var var_if_exists_html_2__Calc_SW_Base;
 function OSTWALD_elements_html_1__Calc_SW_Base()
 {
   // Si No es el Navegador OSTWALD, Crear Elementos para HTML 2
-  if (!if_browser_OSTWALD__index())
+  if (if_browser_OSTWALD__index() === false)
   {
     // Crear Elementos HTML: <body> 1
 
