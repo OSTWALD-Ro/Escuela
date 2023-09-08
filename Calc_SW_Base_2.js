@@ -50,24 +50,3 @@ function create_html_2__Calc_SW_Base()
 
   if_exists_html_1__Calc_SW_Base();
 }
-
-////////////////////////////////
-
-function init_2__Calc_SW_Base()
-{
-  // Código Inicial
-}
-
-function main_2__Calc_SW_Base() 
-{
-  // Código Principal
-}
-
-init_2__Calc_SW_Base();
-
-document.addEventListener("DOMContentLoaded", function() 
-{
-  // Código Despues de Cargar la Pagina Completa
-
-  main_2__Calc_SW_Base();
-});

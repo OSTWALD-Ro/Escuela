@@ -217,24 +217,3 @@ function performOperation__Calc_SW_Base() {
 
   document.getElementById("label_7__Calc_SW_Base").textContent = convertBase__Calc_SW_Base(result__Calc_SW_Base, 10, toBase__Calc_SW_Base);
 }
-
-////////////////////////////////
-
-function init_1__Calc_SW_Base()
-{
-  // Código Inicial
-}
-
-function main_1__Calc_SW_Base() 
-{
-  // Código Principal
-}
-
-init_1__Calc_SW_Base();
-
-document.addEventListener("DOMContentLoaded", function() 
-{
-  // Código Despues de Cargar la Pagina Completa
-
-  main_1__Calc_SW_Base();
-});
