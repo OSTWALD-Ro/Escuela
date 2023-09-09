@@ -333,6 +333,7 @@ function create_html_1__Calc_SW_Base()
     /* button__Calc_SW_Base */
   
     .button__Calc_SW_Base {
+      background-color: rgba( 0, 0, 0, 0);
       padding: 10px 20px;
       border-radius: 20px 20px 20px 20px;
   
