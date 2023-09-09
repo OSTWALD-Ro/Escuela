@@ -24,9 +24,9 @@ function OSTWALD_elements_html_1__Calc_SW_Base()
   {
     // Crear Elementos HTML: <body> 1
 
-    const p_10__Calc_SW_Base = document.createElement('p');  document.body.appendChild(p_10__Calc_SW_Base);  p_10__Calc_SW_Base.id = "p_10__Calc_SW_Base";  p_10__Calc_SW_Base.class = "p__Calc_SW_Base p_block_2__Calc_SW_Base p_10__Calc_SW_Base";  p_10__Calc_SW_Base.textContent = "";
+    const p_10__Calc_SW_Base = document.createElement('p');  document.body.appendChild(p_10__Calc_SW_Base);  p_10__Calc_SW_Base.id = "p_10__Calc_SW_Base";  p_10__Calc_SW_Base.className ="p__Calc_SW_Base p_block_2__Calc_SW_Base p_10__Calc_SW_Base";  p_10__Calc_SW_Base.textContent = "";
 
-    const button_5__Calc_SW_Base = document.createElement('button');  document.body.appendChild(button_5__Calc_SW_Base);  button_5__Calc_SW_Base.id = "button_5__Calc_SW_Base";  button_5__Calc_SW_Base.class = "button__Calc_SW_Base button_5__Calc_SW_Base";  button_5__Calc_SW_Base.onclick = function() {location.reload(true);};  button_5__Calc_SW_Base.textContent = "Actualizar Página";
+    const button_5__Calc_SW_Base = document.createElement('button');  document.body.appendChild(button_5__Calc_SW_Base);  button_5__Calc_SW_Base.id = "button_5__Calc_SW_Base";  button_5__Calc_SW_Base.className ="button__Calc_SW_Base button_5__Calc_SW_Base";  button_5__Calc_SW_Base.onclick = function() {location.reload(true);};  button_5__Calc_SW_Base.textContent = "Actualizar Página";
   }
 }
 
@@ -41,9 +41,9 @@ function if_exists_html_2__Calc_SW_Base()
   {
     // Crear Elementos HTML: <body> 1
 
-    const p_9__Calc_SW_Base = document.createElement('p');  document.body.appendChild(p_9__Calc_SW_Base);  p_9__Calc_SW_Base.id = "p_9__Calc_SW_Base";  p_9__Calc_SW_Base.class = "p__Calc_SW_Base p_block_2__Calc_SW_Base p_9__Calc_SW_Base";  p_9__Calc_SW_Base.textContent = "";
+    const p_9__Calc_SW_Base = document.createElement('p');  document.body.appendChild(p_9__Calc_SW_Base);  p_9__Calc_SW_Base.id = "p_9__Calc_SW_Base";  p_9__Calc_SW_Base.className ="p__Calc_SW_Base p_block_2__Calc_SW_Base p_9__Calc_SW_Base";  p_9__Calc_SW_Base.textContent = "";
 
-    const button_4__Calc_SW_Base = document.createElement('button');  document.body.appendChild(button_4__Calc_SW_Base);  button_4__Calc_SW_Base.id = "button_4__Calc_SW_Base";  button_4__Calc_SW_Base.class = "button__Calc_SW_Base button_4__Calc_SW_Base";  button_4__Calc_SW_Base.onclick = function() {save_html_1__Calc_SW_Base(); delete_html__index();  create_html_2__Calc_SW_Base();  load_html_2__Calc_SW_Base();};  button_4__Calc_SW_Base.textContent = "Ver Código";
+    const button_4__Calc_SW_Base = document.createElement('button');  document.body.appendChild(button_4__Calc_SW_Base);  button_4__Calc_SW_Base.id = "button_4__Calc_SW_Base";  button_4__Calc_SW_Base.className ="button__Calc_SW_Base button_4__Calc_SW_Base";  button_4__Calc_SW_Base.onclick = function() {save_html_1__Calc_SW_Base(); delete_html__index();  create_html_2__Calc_SW_Base();  load_html_2__Calc_SW_Base();};  button_4__Calc_SW_Base.textContent = "Ver Código";
   }
 }
 
@@ -346,72 +346,165 @@ function create_html_1__Calc_SW_Base()
       color: rgb(0, 255, 0);
       box-shadow: 0 0 1.5vh rgb(0, 255, 0);
     }
+
+    /* //////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////// */
+
+    /* div__Calc_SW_Base */
+
+    .div__Calc_SW_Base
+    {
+      background-color: rgba( 0, 0, 0, 0);
+    }
+
+    .div__Calc_SW_Base:hover
+    {
+      background-color: rgba( 0, 0, 0, 0);
+    }
+
+    /* //////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////// */
+
+    /* block__Calc_SW_Base */
+
+    .block_1__Calc_SW_Base
+    {
+      background-color: rgba( 0, 0, 0, 0);
+    }
+
+    .block_1__Calc_SW_Base:hover
+    {
+      background-color: rgba( 0, 0, 0, 0);
+    }
+
+    .block_2__Calc_SW_Base
+    {
+      background-color: rgba( 0, 0, 0, 0);
+    }
+
+    .block_2__Calc_SW_Base:hover
+    {
+      background-color: rgba( 0, 0, 0, 0);
+    }
+
+    .block_3__Calc_SW_Base
+    {
+      background-color: rgba( 0, 0, 0, 0);
+    }
+
+    .block_3__Calc_SW_Base:hover
+    {
+      background-color: rgba( 0, 0, 0, 0);
+    }
+
+    .block_4__Calc_SW_Base
+    {
+      background-color: rgba( 0, 0, 0, 0);
+    }
+
+    .block_4__Calc_SW_Base:hover
+    {
+      background-color: rgba( 0, 0, 0, 0);
+    }
+
+    .block_5__Calc_SW_Base
+    {
+      background-color: rgba( 0, 0, 0, 0);
+    }
+
+    .block_5__Calc_SW_Base:hover
+    {
+      background-color: rgba( 0, 0, 0, 0);
+    }
+
+    .block_6__Calc_SW_Base
+    {
+      background-color: rgba( 0, 0, 0, 0);
+    }
+
+    .block_6__Calc_SW_Base:hover
+    {
+      background-color: rgba( 0, 0, 0, 0);
+    }
+
   `;
 
   // Crear Elementos HTML: <body> 1
 
-  const button_1__Calc_SW_Base = document.createElement('button');  document.body.appendChild(button_1__Calc_SW_Base);  button_1__Calc_SW_Base.id = "button_1__Calc_SW_Base";  button_1__Calc_SW_Base.class = "button__Calc_SW_Base button_1__Calc_SW_Base";  button_1__Calc_SW_Base.onclick = function() {redirigir__index('OSTWALD', 'Escuela', 0)};  button_1__Calc_SW_Base.textContent = "Página Anterior";  
+  const button_1__Calc_SW_Base = document.createElement('button');  document.body.appendChild(button_1__Calc_SW_Base);  button_1__Calc_SW_Base.id = "button_1__Calc_SW_Base";  button_1__Calc_SW_Base.className ="button__Calc_SW_Base button_1__Calc_SW_Base";  button_1__Calc_SW_Base.onclick = function() {redirigir__index('OSTWALD', 'Escuela', 0)};  button_1__Calc_SW_Base.textContent = "Página Anterior";  
 
-  const p_1__Calc_SW_Base = document.createElement('p');  document.body.appendChild(p_1__Calc_SW_Base);  p_1__Calc_SW_Base.id = "p_1__Calc_SW_Base";  p_1__Calc_SW_Base.class = "p__Calc_SW_Base p_block_2__Calc_SW_Base p_1__Calc_SW_Base";  p_1__Calc_SW_Base.textContent = "";  
+  const p_1__Calc_SW_Base = document.createElement('p');  document.body.appendChild(p_1__Calc_SW_Base);  p_1__Calc_SW_Base.id = "p_1__Calc_SW_Base";  p_1__Calc_SW_Base.className ="p__Calc_SW_Base p_block_2__Calc_SW_Base p_1__Calc_SW_Base";  p_1__Calc_SW_Base.textContent = "";  
 
-  const div_1__Calc_SW_Base = document.createElement('div');  document.body.appendChild(div_1__Calc_SW_Base);  div_1__Calc_SW_Base.id = "div_1__Calc_SW_Base";  div_1__Calc_SW_Base.class = "div__Calc_SW_Base div_1__Calc_SW_Base";  div_1__Calc_SW_Base.textContent = "";
-    const h1_1__Calc_SW_Base = document.createElement('h1');  div_1__Calc_SW_Base.appendChild(h1_1__Calc_SW_Base);  h1_1__Calc_SW_Base.id = "h1_1__Calc_SW_Base";  div_1__Calc_SW_Base.class = "h1__Calc_SW_Base h1_1__Calc_SW_Base";  h1_1__Calc_SW_Base.textContent = title_1__Calc_SW_Base.textContent;
+  const div_1__Calc_SW_Base = document.createElement('div');  document.body.appendChild(div_1__Calc_SW_Base);  div_1__Calc_SW_Base.id = "div_1__Calc_SW_Base";  div_1__Calc_SW_Base.className ="div__Calc_SW_Base div_1__Calc_SW_Base";  div_1__Calc_SW_Base.textContent = "";
+    const h1_1__Calc_SW_Base = document.createElement('h1');  div_1__Calc_SW_Base.appendChild(h1_1__Calc_SW_Base);  h1_1__Calc_SW_Base.id = "h1_1__Calc_SW_Base";  div_1__Calc_SW_Base.className ="h1__Calc_SW_Base h1_1__Calc_SW_Base";  h1_1__Calc_SW_Base.textContent = title_1__Calc_SW_Base.textContent;
 
-    const div_2__Calc_SW_Base = document.createElement('div');  div_1__Calc_SW_Base.appendChild(div_2__Calc_SW_Base);  div_2__Calc_SW_Base.id = "div_2__Calc_SW_Base";  div_2__Calc_SW_Base.class = "div__Calc_SW_Base block_1__Calc_SW_Base div_2__Calc_SW_Base";  div_2__Calc_SW_Base.textContent = "";
-      const label_1__Calc_SW_Base = document.createElement('label');  div_2__Calc_SW_Base.appendChild(label_1__Calc_SW_Base);  label_1__Calc_SW_Base.id = "label_1__Calc_SW_Base";  label_1__Calc_SW_Base.class = "label__Calc_SW_Base block_1__Calc_SW_Base label_1__Calc_SW_Base";  label_1__Calc_SW_Base.for = "input_1__Calc_SW_Base";  label_1__Calc_SW_Base.textContent = "Número 1: ";
-      const input_1__Calc_SW_Base = document.createElement('input');  div_2__Calc_SW_Base.appendChild(input_1__Calc_SW_Base);  input_1__Calc_SW_Base.id = "input_1__Calc_SW_Base";  input_1__Calc_SW_Base.class = "input__Calc_SW_Base block_1__Calc_SW_Base input_1__Calc_SW_Base";  input_1__Calc_SW_Base.type = "text";  input_1__Calc_SW_Base.placeholder = "Número 1";  input_1__Calc_SW_Base.value = var_input_1__Calc_SW_Base;
+    const div_2__Calc_SW_Base = document.createElement('div');  div_1__Calc_SW_Base.appendChild(div_2__Calc_SW_Base);  div_2__Calc_SW_Base.id = "div_2__Calc_SW_Base";  div_2__Calc_SW_Base.className ="div__Calc_SW_Base block_1__Calc_SW_Base div_2__Calc_SW_Base";  div_2__Calc_SW_Base.textContent = "";
+      const label_1__Calc_SW_Base = document.createElement('label');  div_2__Calc_SW_Base.appendChild(label_1__Calc_SW_Base);  label_1__Calc_SW_Base.id = "label_1__Calc_SW_Base";  label_1__Calc_SW_Base.className ="label__Calc_SW_Base block_1__Calc_SW_Base label_1__Calc_SW_Base";  label_1__Calc_SW_Base.for = "input_1__Calc_SW_Base";  label_1__Calc_SW_Base.textContent = "Número 1: ";
+      const input_1__Calc_SW_Base = document.createElement('input');  div_2__Calc_SW_Base.appendChild(input_1__Calc_SW_Base);  input_1__Calc_SW_Base.id = "input_1__Calc_SW_Base";  input_1__Calc_SW_Base.className ="input__Calc_SW_Base block_1__Calc_SW_Base input_1__Calc_SW_Base";  input_1__Calc_SW_Base.type = "text";  input_1__Calc_SW_Base.placeholder = "Número 1";  input_1__Calc_SW_Base.value = var_input_1__Calc_SW_Base;
 
-    const p_2__Calc_SW_Base = document.createElement('p');  div_1__Calc_SW_Base.appendChild(p_2__Calc_SW_Base);  p_2__Calc_SW_Base.id = "p_2__Calc_SW_Base";  p_2__Calc_SW_Base.class = "p__Calc_SW_Base p_block_1__Calc_SW_Base p_2__Calc_SW_Base";  p_2__Calc_SW_Base.textContent = "";  
+    const p_2__Calc_SW_Base = document.createElement('p');  div_1__Calc_SW_Base.appendChild(p_2__Calc_SW_Base);  p_2__Calc_SW_Base.id = "p_2__Calc_SW_Base";  p_2__Calc_SW_Base.className ="p__Calc_SW_Base p_block_1__Calc_SW_Base p_2__Calc_SW_Base";  p_2__Calc_SW_Base.textContent = "";  
 
-    const div_3__Calc_SW_Base = document.createElement('div');  div_1__Calc_SW_Base.appendChild(div_3__Calc_SW_Base);  div_3__Calc_SW_Base.id = "div_3__Calc_SW_Base";  div_3__Calc_SW_Base.class = "div__Calc_SW_Base block_2__Calc_SW_Base div_3__Calc_SW_Base";  div_3__Calc_SW_Base.textContent = "";
-      const label_2__Calc_SW_Base = document.createElement('label');  div_3__Calc_SW_Base.appendChild(label_2__Calc_SW_Base);  label_2__Calc_SW_Base.id = "label_2__Calc_SW_Base";  label_2__Calc_SW_Base.class = "label__Calc_SW_Base block_2__Calc_SW_Base label_2__Calc_SW_Base";  label_2__Calc_SW_Base.for = "input_2__Calc_SW_Base";  label_2__Calc_SW_Base.textContent = "Número 2: ";
-      const input_2__Calc_SW_Base = document.createElement('input');  div_3__Calc_SW_Base.appendChild(input_2__Calc_SW_Base);  input_2__Calc_SW_Base.id = "input_2__Calc_SW_Base";  input_2__Calc_SW_Base.class = "input__Calc_SW_Base block_2__Calc_SW_Base input_2__Calc_SW_Base";  input_2__Calc_SW_Base.type = "text";  input_2__Calc_SW_Base.placeholder = "Número 2";  input_2__Calc_SW_Base.value = var_input_2__Calc_SW_Base;
+    const div_3__Calc_SW_Base = document.createElement('div');  div_1__Calc_SW_Base.appendChild(div_3__Calc_SW_Base);  div_3__Calc_SW_Base.id = "div_3__Calc_SW_Base";  div_3__Calc_SW_Base.className ="div__Calc_SW_Base block_2__Calc_SW_Base div_3__Calc_SW_Base";  div_3__Calc_SW_Base.textContent = "";
+      const label_2__Calc_SW_Base = document.createElement('label');  div_3__Calc_SW_Base.appendChild(label_2__Calc_SW_Base);  label_2__Calc_SW_Base.id = "label_2__Calc_SW_Base";  label_2__Calc_SW_Base.className ="label__Calc_SW_Base block_2__Calc_SW_Base label_2__Calc_SW_Base";  label_2__Calc_SW_Base.for = "input_2__Calc_SW_Base";  label_2__Calc_SW_Base.textContent = "Número 2: ";
+      const input_2__Calc_SW_Base = document.createElement('input');  div_3__Calc_SW_Base.appendChild(input_2__Calc_SW_Base);  input_2__Calc_SW_Base.id = "input_2__Calc_SW_Base";  input_2__Calc_SW_Base.className ="input__Calc_SW_Base block_2__Calc_SW_Base input_2__Calc_SW_Base";  input_2__Calc_SW_Base.type = "text";  input_2__Calc_SW_Base.placeholder = "Número 2";  input_2__Calc_SW_Base.value = var_input_2__Calc_SW_Base;
 
-    const p_3__Calc_SW_Base = document.createElement('p');  div_1__Calc_SW_Base.appendChild(p_3__Calc_SW_Base);  p_3__Calc_SW_Base.id = "p_3__Calc_SW_Base";  p_3__Calc_SW_Base.class = "p__Calc_SW_Base p_block_2__Calc_SW_Base p_3__Calc_SW_Base";  p_3__Calc_SW_Base.textContent = "";
+    const p_3__Calc_SW_Base = document.createElement('p');  div_1__Calc_SW_Base.appendChild(p_3__Calc_SW_Base);  p_3__Calc_SW_Base.id = "p_3__Calc_SW_Base";  p_3__Calc_SW_Base.className ="p__Calc_SW_Base p_block_2__Calc_SW_Base p_3__Calc_SW_Base";  p_3__Calc_SW_Base.textContent = "";
 
-    const div_4__Calc_SW_Base = document.createElement('div');  div_1__Calc_SW_Base.appendChild(div_4__Calc_SW_Base);  div_4__Calc_SW_Base.id = "div_4__Calc_SW_Base";  div_4__Calc_SW_Base.class = "div__Calc_SW_Base block_3__Calc_SW_Base div_4__Calc_SW_Base";  div_4__Calc_SW_Base.textContent = "";
-      const label_3__Calc_SW_Base = document.createElement('label');  div_4__Calc_SW_Base.appendChild(label_3__Calc_SW_Base);  label_3__Calc_SW_Base.id = "label_3__Calc_SW_Base";  label_3__Calc_SW_Base.class = "label__Calc_SW_Base block_3__Calc_SW_Base label_3__Calc_SW_Base";  label_3__Calc_SW_Base.for = "select_1__Calc_SW_Base";  label_3__Calc_SW_Base.textContent = "Desde Base: ";
-      const select_1__Calc_SW_Base = document.createElement('select');  div_4__Calc_SW_Base.appendChild(select_1__Calc_SW_Base);  select_1__Calc_SW_Base.id = "select_1__Calc_SW_Base";  select_1__Calc_SW_Base.class = "select__Calc_SW_Base block_3__Calc_SW_Base select_1__Calc_SW_Base";
-        const option_1__Calc_SW_Base = document.createElement('option');  select_1__Calc_SW_Base.appendChild(option_1__Calc_SW_Base);  option_1__Calc_SW_Base.id = "option_1__Calc_SW_Base";  option_1__Calc_SW_Base.class = "option__Calc_SW_Base block_3__Calc_SW_Base option_1__Calc_SW_Base";  option_1__Calc_SW_Base.value = "2";  option_1__Calc_SW_Base.textContent = "Binario";
-        const option_2__Calc_SW_Base = document.createElement('option');  select_1__Calc_SW_Base.appendChild(option_2__Calc_SW_Base);  option_2__Calc_SW_Base.id = "option_2__Calc_SW_Base";  option_2__Calc_SW_Base.class = "option__Calc_SW_Base block_3__Calc_SW_Base option_2__Calc_SW_Base";  option_2__Calc_SW_Base.value = "8";  option_2__Calc_SW_Base.textContent = "Octal";
-        const option_3__Calc_SW_Base = document.createElement('option');  select_1__Calc_SW_Base.appendChild(option_3__Calc_SW_Base);  option_3__Calc_SW_Base.id = "option_3__Calc_SW_Base";  option_3__Calc_SW_Base.class = "option__Calc_SW_Base block_3__Calc_SW_Base option_3__Calc_SW_Base";  option_3__Calc_SW_Base.value = "10";  option_3__Calc_SW_Base.textContent = "Decimal";
-        const option_4__Calc_SW_Base = document.createElement('option');  select_1__Calc_SW_Base.appendChild(option_4__Calc_SW_Base);  option_4__Calc_SW_Base.id = "option_4__Calc_SW_Base";  option_4__Calc_SW_Base.class = "option__Calc_SW_Base block_3__Calc_SW_Base option_4__Calc_SW_Base";  option_4__Calc_SW_Base.value = "16";  option_4__Calc_SW_Base.textContent = "Hexadecimal";
-        const option_5__Calc_SW_Base = document.createElement('option');  select_1__Calc_SW_Base.appendChild(option_5__Calc_SW_Base);  option_5__Calc_SW_Base.id = "option_5__Calc_SW_Base";  option_5__Calc_SW_Base.class = "option__Calc_SW_Base block_3__Calc_SW_Base option_5__Calc_SW_Base";  option_5__Calc_SW_Base.value = "5";  option_5__Calc_SW_Base.textContent = "Quinario";
+    const div_4__Calc_SW_Base = document.createElement('div');  div_1__Calc_SW_Base.appendChild(div_4__Calc_SW_Base);  div_4__Calc_SW_Base.id = "div_4__Calc_SW_Base";  div_4__Calc_SW_Base.className ="div__Calc_SW_Base block_3__Calc_SW_Base div_4__Calc_SW_Base";  div_4__Calc_SW_Base.textContent = "";
+      const label_3__Calc_SW_Base = document.createElement('label');  div_4__Calc_SW_Base.appendChild(label_3__Calc_SW_Base);  label_3__Calc_SW_Base.id = "label_3__Calc_SW_Base";  label_3__Calc_SW_Base.className ="label__Calc_SW_Base block_3__Calc_SW_Base label_3__Calc_SW_Base";  label_3__Calc_SW_Base.for = "select_1__Calc_SW_Base";  label_3__Calc_SW_Base.textContent = "Desde Base: ";
+      const select_1__Calc_SW_Base = document.createElement('select');  div_4__Calc_SW_Base.appendChild(select_1__Calc_SW_Base);  select_1__Calc_SW_Base.id = "select_1__Calc_SW_Base";  select_1__Calc_SW_Base.className ="select__Calc_SW_Base block_3__Calc_SW_Base select_1__Calc_SW_Base";
+        const option_1__Calc_SW_Base = document.createElement('option');  select_1__Calc_SW_Base.appendChild(option_1__Calc_SW_Base);  option_1__Calc_SW_Base.id = "option_1__Calc_SW_Base";  option_1__Calc_SW_Base.className ="option__Calc_SW_Base block_3__Calc_SW_Base option_1__Calc_SW_Base";  option_1__Calc_SW_Base.value = "2";  option_1__Calc_SW_Base.textContent = "Binario";
+        const option_2__Calc_SW_Base = document.createElement('option');  select_1__Calc_SW_Base.appendChild(option_2__Calc_SW_Base);  option_2__Calc_SW_Base.id = "option_2__Calc_SW_Base";  option_2__Calc_SW_Base.className ="option__Calc_SW_Base block_3__Calc_SW_Base option_2__Calc_SW_Base";  option_2__Calc_SW_Base.value = "8";  option_2__Calc_SW_Base.textContent = "Octal";
+        const option_3__Calc_SW_Base = document.createElement('option');  select_1__Calc_SW_Base.appendChild(option_3__Calc_SW_Base);  option_3__Calc_SW_Base.id = "option_3__Calc_SW_Base";  option_3__Calc_SW_Base.className ="option__Calc_SW_Base block_3__Calc_SW_Base option_3__Calc_SW_Base";  option_3__Calc_SW_Base.value = "10";  option_3__Calc_SW_Base.textContent = "Decimal";
+        const option_4__Calc_SW_Base = document.createElement('option');  select_1__Calc_SW_Base.appendChild(option_4__Calc_SW_Base);  option_4__Calc_SW_Base.id = "option_4__Calc_SW_Base";  option_4__Calc_SW_Base.className ="option__Calc_SW_Base block_3__Calc_SW_Base option_4__Calc_SW_Base";  option_4__Calc_SW_Base.value = "16";  option_4__Calc_SW_Base.textContent = "Hexadecimal";
+        const option_5__Calc_SW_Base = document.createElement('option');  select_1__Calc_SW_Base.appendChild(option_5__Calc_SW_Base);  option_5__Calc_SW_Base.id = "option_5__Calc_SW_Base";  option_5__Calc_SW_Base.className ="option__Calc_SW_Base block_3__Calc_SW_Base option_5__Calc_SW_Base";  option_5__Calc_SW_Base.value = "5";  option_5__Calc_SW_Base.textContent = "Quinario";
 
-    const p_4__Calc_SW_Base = document.createElement('p');  div_1__Calc_SW_Base.appendChild(p_4__Calc_SW_Base);  p_4__Calc_SW_Base.id = "p_4__Calc_SW_Base";  p_4__Calc_SW_Base.class = "p__Calc_SW_Base p_block_1__Calc_SW_Base p_4__Calc_SW_Base";  p_4__Calc_SW_Base.textContent = "";
+    const p_4__Calc_SW_Base = document.createElement('p');  div_1__Calc_SW_Base.appendChild(p_4__Calc_SW_Base);  p_4__Calc_SW_Base.id = "p_4__Calc_SW_Base";  p_4__Calc_SW_Base.className ="p__Calc_SW_Base p_block_1__Calc_SW_Base p_4__Calc_SW_Base";  p_4__Calc_SW_Base.textContent = "";
 
-    const div_5__Calc_SW_Base = document.createElement('div');  div_1__Calc_SW_Base.appendChild(div_5__Calc_SW_Base);  div_5__Calc_SW_Base.id = "div_5__Calc_SW_Base";  div_5__Calc_SW_Base.class = "div__Calc_SW_Base block_4__Calc_SW_Base div_5__Calc_SW_Base";  div_5__Calc_SW_Base.textContent = "";
-      const label_4__Calc_SW_Base = document.createElement('label');  div_5__Calc_SW_Base.appendChild(label_4__Calc_SW_Base);  label_4__Calc_SW_Base.id = "label_4__Calc_SW_Base";  label_4__Calc_SW_Base.class = "label__Calc_SW_Base block_4__Calc_SW_Base label_4__Calc_SW_Base";  label_4__Calc_SW_Base.for = "select_2__Calc_SW_Base";  label_4__Calc_SW_Base.textContent = "A Base: ";
-      const select_2__Calc_SW_Base = document.createElement('select');  div_5__Calc_SW_Base.appendChild(select_2__Calc_SW_Base);  select_2__Calc_SW_Base.id = "select_2__Calc_SW_Base";  select_2__Calc_SW_Base.class = "select__Calc_SW_Base block_4__Calc_SW_Base select_2__Calc_SW_Base";
-        const option_6__Calc_SW_Base = document.createElement('option');  select_2__Calc_SW_Base.appendChild(option_6__Calc_SW_Base);  option_6__Calc_SW_Base.id = "option_6__Calc_SW_Base";  option_6__Calc_SW_Base.class = "option__Calc_SW_Base block_4__Calc_SW_Base option_6";  option_6__Calc_SW_Base.value = "2";  option_6__Calc_SW_Base.textContent = "Binario";
-        const option_7__Calc_SW_Base = document.createElement('option');  select_2__Calc_SW_Base.appendChild(option_7__Calc_SW_Base);  option_7__Calc_SW_Base.id = "option_7__Calc_SW_Base";  option_7__Calc_SW_Base.class = "option__Calc_SW_Base block_4__Calc_SW_Base option_7";  option_7__Calc_SW_Base.value = "8";  option_7__Calc_SW_Base.textContent = "Octal";
-        const option_8__Calc_SW_Base = document.createElement('option');  select_2__Calc_SW_Base.appendChild(option_8__Calc_SW_Base);  option_8__Calc_SW_Base.id = "option_8__Calc_SW_Base";  option_8__Calc_SW_Base.class = "option__Calc_SW_Base block_4__Calc_SW_Base option_8";  option_8__Calc_SW_Base.value = "10";  option_8__Calc_SW_Base.textContent = "Decimal";
-        const option_9__Calc_SW_Base = document.createElement('option');  select_2__Calc_SW_Base.appendChild(option_9__Calc_SW_Base);  option_9__Calc_SW_Base.id = "option_9__Calc_SW_Base";  option_9__Calc_SW_Base.class = "option__Calc_SW_Base block_4__Calc_SW_Base option_9";  option_9__Calc_SW_Base.value = "16";  option_9__Calc_SW_Base.textContent = "Hexadecimal";
-        const option_10__Calc_SW_Base = document.createElement('option');  select_2__Calc_SW_Base.appendChild(option_10__Calc_SW_Base);  option_10__Calc_SW_Base.id = "option_10__Calc_SW_Base";  option_10__Calc_SW_Base.class = "option__Calc_SW_Base block_4__Calc_SW_Base option_10";  option_10__Calc_SW_Base.value = "5";  option_10__Calc_SW_Base.textContent = "Quinario";
+    const div_5__Calc_SW_Base = document.createElement('div');  div_1__Calc_SW_Base.appendChild(div_5__Calc_SW_Base);  div_5__Calc_SW_Base.id = "div_5__Calc_SW_Base";  div_5__Calc_SW_Base.className ="div__Calc_SW_Base block_4__Calc_SW_Base div_5__Calc_SW_Base";  div_5__Calc_SW_Base.textContent = "";
+      const label_4__Calc_SW_Base = document.createElement('label');  div_5__Calc_SW_Base.appendChild(label_4__Calc_SW_Base);  label_4__Calc_SW_Base.id = "label_4__Calc_SW_Base";  label_4__Calc_SW_Base.className ="label__Calc_SW_Base block_4__Calc_SW_Base label_4__Calc_SW_Base";  label_4__Calc_SW_Base.for = "select_2__Calc_SW_Base";  label_4__Calc_SW_Base.textContent = "A Base: ";
+      const select_2__Calc_SW_Base = document.createElement('select');  div_5__Calc_SW_Base.appendChild(select_2__Calc_SW_Base);  select_2__Calc_SW_Base.id = "select_2__Calc_SW_Base";  select_2__Calc_SW_Base.className ="select__Calc_SW_Base block_4__Calc_SW_Base select_2__Calc_SW_Base";
+        const option_6__Calc_SW_Base = document.createElement('option');  select_2__Calc_SW_Base.appendChild(option_6__Calc_SW_Base);  option_6__Calc_SW_Base.id = "option_6__Calc_SW_Base";  option_6__Calc_SW_Base.className ="option__Calc_SW_Base block_4__Calc_SW_Base option_6";  option_6__Calc_SW_Base.value = "2";  option_6__Calc_SW_Base.textContent = "Binario";
+        const option_7__Calc_SW_Base = document.createElement('option');  select_2__Calc_SW_Base.appendChild(option_7__Calc_SW_Base);  option_7__Calc_SW_Base.id = "option_7__Calc_SW_Base";  option_7__Calc_SW_Base.className ="option__Calc_SW_Base block_4__Calc_SW_Base option_7";  option_7__Calc_SW_Base.value = "8";  option_7__Calc_SW_Base.textContent = "Octal";
+        const option_8__Calc_SW_Base = document.createElement('option');  select_2__Calc_SW_Base.appendChild(option_8__Calc_SW_Base);  option_8__Calc_SW_Base.id = "option_8__Calc_SW_Base";  option_8__Calc_SW_Base.className ="option__Calc_SW_Base block_4__Calc_SW_Base option_8";  option_8__Calc_SW_Base.value = "10";  option_8__Calc_SW_Base.textContent = "Decimal";
+        const option_9__Calc_SW_Base = document.createElement('option');  select_2__Calc_SW_Base.appendChild(option_9__Calc_SW_Base);  option_9__Calc_SW_Base.id = "option_9__Calc_SW_Base";  option_9__Calc_SW_Base.className ="option__Calc_SW_Base block_4__Calc_SW_Base option_9";  option_9__Calc_SW_Base.value = "16";  option_9__Calc_SW_Base.textContent = "Hexadecimal";
+        const option_10__Calc_SW_Base = document.createElement('option');  select_2__Calc_SW_Base.appendChild(option_10__Calc_SW_Base);  option_10__Calc_SW_Base.id = "option_10__Calc_SW_Base";  option_10__Calc_SW_Base.className ="option__Calc_SW_Base block_4__Calc_SW_Base option_10";  option_10__Calc_SW_Base.value = "5";  option_10__Calc_SW_Base.textContent = "Quinario";
 
-    const p_5__Calc_SW_Base = document.createElement('p');  div_1__Calc_SW_Base.appendChild(p_5__Calc_SW_Base);  p_5__Calc_SW_Base.id = "p_5__Calc_SW_Base";  p_5__Calc_SW_Base.class = "p__Calc_SW_Base p_block_1__Calc_SW_Base p_5__Calc_SW_Base";  p_5__Calc_SW_Base.textContent = "";
+    const p_5__Calc_SW_Base = document.createElement('p');  div_1__Calc_SW_Base.appendChild(p_5__Calc_SW_Base);  p_5__Calc_SW_Base.id = "p_5__Calc_SW_Base";  p_5__Calc_SW_Base.className ="p__Calc_SW_Base p_block_1__Calc_SW_Base p_5__Calc_SW_Base";  p_5__Calc_SW_Base.textContent = "";
 
-    const div_6__Calc_SW_Base = document.createElement('div');  div_1__Calc_SW_Base.appendChild(div_6__Calc_SW_Base);  div_6__Calc_SW_Base.id = "div_6__Calc_SW_Base";  div_6__Calc_SW_Base.class = "div__Calc_SW_Base block_5__Calc_SW_Base div_6__Calc_SW_Base";  div_6__Calc_SW_Base.textContent = "";
-      const label_5__Calc_SW_Base = document.createElement('label');  div_6__Calc_SW_Base.appendChild(label_5__Calc_SW_Base);  label_5__Calc_SW_Base.id = "label_5__Calc_SW_Base";  label_5__Calc_SW_Base.class = "label__Calc_SW_Base block_5__Calc_SW_Base label_5__Calc_SW_Base";  label_5__Calc_SW_Base.for = "select_3__Calc_SW_Base";  label_5__Calc_SW_Base.textContent = "Operación: ";
-      const select_3__Calc_SW_Base = document.createElement('select');  div_6__Calc_SW_Base.appendChild(select_3__Calc_SW_Base);  select_3__Calc_SW_Base.id = "select_3__Calc_SW_Base";  select_3__Calc_SW_Base.class = "select__Calc_SW_Base block_5__Calc_SW_Base select_3__Calc_SW_Base";
-        const option_11__Calc_SW_Base = document.createElement('option');  select_3__Calc_SW_Base.appendChild(option_11__Calc_SW_Base);  option_11__Calc_SW_Base.id = "option_11__Calc_SW_Base";  option_11__Calc_SW_Base.class = "option__Calc_SW_Base block_5__Calc_SW_Base option_11__Calc_SW_Base";  option_11__Calc_SW_Base.value = "add";  option_11__Calc_SW_Base.textContent = "Sumar (+)";
-        const option_12__Calc_SW_Base = document.createElement('option');  select_3__Calc_SW_Base.appendChild(option_12__Calc_SW_Base);  option_12__Calc_SW_Base.id = "option_12__Calc_SW_Base";  option_12__Calc_SW_Base.class = "option__Calc_SW_Base block_5__Calc_SW_Base option_12__Calc_SW_Base";  option_12__Calc_SW_Base.value = "subtract";  option_12__Calc_SW_Base.textContent = "Restar (-)";
-        const option_13__Calc_SW_Base = document.createElement('option');  select_3__Calc_SW_Base.appendChild(option_13__Calc_SW_Base);  option_13__Calc_SW_Base.id = "option_13__Calc_SW_Base";  option_13__Calc_SW_Base.class = "option__Calc_SW_Base block_5__Calc_SW_Base option_13__Calc_SW_Base";  option_13__Calc_SW_Base.value = "multiply";  option_13__Calc_SW_Base.textContent = "Multiplicar (*)";
-        const option_14__Calc_SW_Base = document.createElement('option');  select_3__Calc_SW_Base.appendChild(option_14__Calc_SW_Base);  option_14__Calc_SW_Base.id = "option_14__Calc_SW_Base";  option_14__Calc_SW_Base.class = "option__Calc_SW_Base block_5__Calc_SW_Base option_14__Calc_SW_Base";  option_14__Calc_SW_Base.value = "divide";  option_14__Calc_SW_Base.textContent = "Dividir (/)";
+    const div_6__Calc_SW_Base = document.createElement('div');  div_1__Calc_SW_Base.appendChild(div_6__Calc_SW_Base);  div_6__Calc_SW_Base.id = "div_6__Calc_SW_Base";  div_6__Calc_SW_Base.className ="div__Calc_SW_Base block_5__Calc_SW_Base div_6__Calc_SW_Base";  div_6__Calc_SW_Base.textContent = "";
+      const label_5__Calc_SW_Base = document.createElement('label');  div_6__Calc_SW_Base.appendChild(label_5__Calc_SW_Base);  label_5__Calc_SW_Base.id = "label_5__Calc_SW_Base";  label_5__Calc_SW_Base.className ="label__Calc_SW_Base block_5__Calc_SW_Base label_5__Calc_SW_Base";  label_5__Calc_SW_Base.for = "select_3__Calc_SW_Base";  label_5__Calc_SW_Base.textContent = "Operación: ";
+      const select_3__Calc_SW_Base = document.createElement('select');  div_6__Calc_SW_Base.appendChild(select_3__Calc_SW_Base);  select_3__Calc_SW_Base.id = "select_3__Calc_SW_Base";  select_3__Calc_SW_Base.className ="select__Calc_SW_Base block_5__Calc_SW_Base select_3__Calc_SW_Base";
+        const option_11__Calc_SW_Base = document.createElement('option');  select_3__Calc_SW_Base.appendChild(option_11__Calc_SW_Base);  option_11__Calc_SW_Base.id = "option_11__Calc_SW_Base";  option_11__Calc_SW_Base.className ="option__Calc_SW_Base block_5__Calc_SW_Base option_11__Calc_SW_Base";  option_11__Calc_SW_Base.value = "add";  option_11__Calc_SW_Base.textContent = "Sumar (+)";
+        const option_12__Calc_SW_Base = document.createElement('option');  select_3__Calc_SW_Base.appendChild(option_12__Calc_SW_Base);  option_12__Calc_SW_Base.id = "option_12__Calc_SW_Base";  option_12__Calc_SW_Base.className ="option__Calc_SW_Base block_5__Calc_SW_Base option_12__Calc_SW_Base";  option_12__Calc_SW_Base.value = "subtract";  option_12__Calc_SW_Base.textContent = "Restar (-)";
+        const option_13__Calc_SW_Base = document.createElement('option');  select_3__Calc_SW_Base.appendChild(option_13__Calc_SW_Base);  option_13__Calc_SW_Base.id = "option_13__Calc_SW_Base";  option_13__Calc_SW_Base.className ="option__Calc_SW_Base block_5__Calc_SW_Base option_13__Calc_SW_Base";  option_13__Calc_SW_Base.value = "multiply";  option_13__Calc_SW_Base.textContent = "Multiplicar (*)";
+        const option_14__Calc_SW_Base = document.createElement('option');  select_3__Calc_SW_Base.appendChild(option_14__Calc_SW_Base);  option_14__Calc_SW_Base.id = "option_14__Calc_SW_Base";  option_14__Calc_SW_Base.className ="option__Calc_SW_Base block_5__Calc_SW_Base option_14__Calc_SW_Base";  option_14__Calc_SW_Base.value = "divide";  option_14__Calc_SW_Base.textContent = "Dividir (/)";
 
-    const p_6__Calc_SW_Base = document.createElement('p');  div_1__Calc_SW_Base.appendChild(p_6__Calc_SW_Base);  p_6__Calc_SW_Base.id = "p_6__Calc_SW_Base";  p_6__Calc_SW_Base.class = "p__Calc_SW_Base p_block_2__Calc_SW_Base p_6__Calc_SW_Base";  p_6__Calc_SW_Base.textContent = "";
+    const p_6__Calc_SW_Base = document.createElement('p');  div_1__Calc_SW_Base.appendChild(p_6__Calc_SW_Base);  p_6__Calc_SW_Base.id = "p_6__Calc_SW_Base";  p_6__Calc_SW_Base.className ="p__Calc_SW_Base p_block_2__Calc_SW_Base p_6__Calc_SW_Base";  p_6__Calc_SW_Base.textContent = "";
 
-    const div_7__Calc_SW_Base = document.createElement('div');  div_1__Calc_SW_Base.appendChild(div_7__Calc_SW_Base);  div_7__Calc_SW_Base.id = "div_7__Calc_SW_Base";  div_7__Calc_SW_Base.class = "div__Calc_SW_Base block_6__Calc_SW_Base div_7__Calc_SW_Base";  div_7__Calc_SW_Base.textContent = "";
-      const label_6__Calc_SW_Base = document.createElement('label');  div_7__Calc_SW_Base.appendChild(label_6__Calc_SW_Base);  label_6__Calc_SW_Base.id = "label_6__Calc_SW_Base";  label_6__Calc_SW_Base.class = "label__Calc_SW_Base block_6__Calc_SW_Base label_6__Calc_SW_Base";  label_6__Calc_SW_Base.for = "label_7__Calc_SW_Base";  label_6__Calc_SW_Base.textContent = "Resultado: ";
-      const label_7__Calc_SW_Base = document.createElement('label');  div_7__Calc_SW_Base.appendChild(label_7__Calc_SW_Base);  label_7__Calc_SW_Base.id = "label_7__Calc_SW_Base";  label_7__Calc_SW_Base.class = "label__Calc_SW_Base block_6__Calc_SW_Base label_7__Calc_SW_Base";  label_7__Calc_SW_Base.for = "label_6__Calc_SW_Base";  label_7__Calc_SW_Base.textContent = var_label_7__Calc_SW_Base;
+    const div_7__Calc_SW_Base = document.createElement('div');  div_1__Calc_SW_Base.appendChild(div_7__Calc_SW_Base);  div_7__Calc_SW_Base.id = "div_7__Calc_SW_Base";  div_7__Calc_SW_Base.className ="div__Calc_SW_Base block_6__Calc_SW_Base div_7__Calc_SW_Base";  div_7__Calc_SW_Base.textContent = "";
+      const label_6__Calc_SW_Base = document.createElement('label');  div_7__Calc_SW_Base.appendChild(label_6__Calc_SW_Base);  label_6__Calc_SW_Base.id = "label_6__Calc_SW_Base";  label_6__Calc_SW_Base.className ="label__Calc_SW_Base block_6__Calc_SW_Base label_6__Calc_SW_Base";  label_6__Calc_SW_Base.for = "label_7__Calc_SW_Base";  label_6__Calc_SW_Base.textContent = "Resultado: ";
+      const label_7__Calc_SW_Base = document.createElement('label');  div_7__Calc_SW_Base.appendChild(label_7__Calc_SW_Base);  label_7__Calc_SW_Base.id = "label_7__Calc_SW_Base";  label_7__Calc_SW_Base.className ="label__Calc_SW_Base block_6__Calc_SW_Base label_7__Calc_SW_Base";  label_7__Calc_SW_Base.for = "label_6__Calc_SW_Base";  label_7__Calc_SW_Base.textContent = var_label_7__Calc_SW_Base;
       
-    const p_7__Calc_SW_Base = document.createElement('p');  div_1__Calc_SW_Base.appendChild(p_7__Calc_SW_Base);  p_7__Calc_SW_Base.id = "p_7__Calc_SW_Base";  p_7__Calc_SW_Base.class = "p p_block_2 p_7";  p_7__Calc_SW_Base.textContent = "";
+    const p_7__Calc_SW_Base = document.createElement('p');  div_1__Calc_SW_Base.appendChild(p_7__Calc_SW_Base);  p_7__Calc_SW_Base.id = "p_7__Calc_SW_Base";  p_7__Calc_SW_Base.className ="p p_block_2 p_7";  p_7__Calc_SW_Base.textContent = "";
 
-    const button_2__Calc_SW_Base = document.createElement('button');  div_1__Calc_SW_Base.appendChild(button_2__Calc_SW_Base);  button_2__Calc_SW_Base.id = "button_2__Calc_SW_Base";  button_2__Calc_SW_Base.class = "button__Calc_SW_Base button_2__Calc_SW_Base";  button_2__Calc_SW_Base.onclick = function() {performOperation__Calc_SW_Base()};  button_2__Calc_SW_Base.textContent = "Calcular";
+    const button_2__Calc_SW_Base = document.createElement('button');  div_1__Calc_SW_Base.appendChild(button_2__Calc_SW_Base);  button_2__Calc_SW_Base.id = "button_2__Calc_SW_Base";  button_2__Calc_SW_Base.className ="button__Calc_SW_Base button_2__Calc_SW_Base";  button_2__Calc_SW_Base.onclick = function() {performOperation__Calc_SW_Base()};  button_2__Calc_SW_Base.textContent = "Calcular";
 
-    const p_8__Calc_SW_Base = document.createElement('p');  document.body.appendChild(p_8__Calc_SW_Base);  p_8__Calc_SW_Base.id = "p_8__Calc_SW_Base";  p_8__Calc_SW_Base.class = "p__Calc_SW_Base p_block_2__Calc_SW_Base p_8__Calc_SW_Base";  p_8__Calc_SW_Base.textContent = "";
+    const p_8__Calc_SW_Base = document.createElement('p');  document.body.appendChild(p_8__Calc_SW_Base);  p_8__Calc_SW_Base.id = "p_8__Calc_SW_Base";  p_8__Calc_SW_Base.className ="p__Calc_SW_Base p_block_2__Calc_SW_Base p_8__Calc_SW_Base";  p_8__Calc_SW_Base.textContent = "";
 
-    const button_3__Calc_SW_Base = document.createElement('button');  document.body.appendChild(button_3__Calc_SW_Base);  button_3__Calc_SW_Base.id = "button_3__Calc_SW_Base";  button_3__Calc_SW_Base.class = "button__Calc_SW_Base button_3__Calc_SW_Base";  button_3__Calc_SW_Base.onclick = function() {delete_html__index();  create_html_1__Calc_SW_Base();  create_html_1_init__Calc_SW_Base();};  button_3__Calc_SW_Base.textContent = "Restablecer";
+    const button_3__Calc_SW_Base = document.createElement('button');  document.body.appendChild(button_3__Calc_SW_Base);  button_3__Calc_SW_Base.id = "button_3__Calc_SW_Base";  button_3__Calc_SW_Base.className ="button__Calc_SW_Base button_3__Calc_SW_Base";  button_3__Calc_SW_Base.onclick = function() {delete_html__index();  create_html_1__Calc_SW_Base();  create_html_1_init__Calc_SW_Base();};  button_3__Calc_SW_Base.textContent = "Restablecer";
 
     ////////////////////////////////
 
